@@ -4,8 +4,8 @@
 
 ***
 ## 3-1-3 アプリケーションの雛形作成
-> $ rails new taskleaf -d postgresql
-> $ cd taskleaf
+> $ rails new taskleaf -d postgresql  
+> $ cd taskleaf  
 > $ bin/rails db:create
 
 ## 3-2-2 タスクモデルの雛形作成
