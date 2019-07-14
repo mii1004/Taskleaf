@@ -1,5 +1,6 @@
-h1 Tasks#new
-nav.justify-content-end
+h1 新規登録
+
+.nav.justify-content-end
     = link_to '一覧', tasks_path, class: 'nav-link'
 
 = form_with model: @task, local: true do |f|
